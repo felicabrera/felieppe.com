@@ -15,6 +15,8 @@ import Conways from '../../assets/conways_cover.png'
 import Challenge from '../../assets/challenge_cover.png'
 import Autosharp from '../../assets/autosharp_cover.png'
 import LocuraPropiedades from '../../assets/locurapropiedades_cover.png'
+import Marloy from '../../assets/marloy_cover.png'
+import Brello from '../../assets/brello_cover.png'
 
 function Portfolio() {
     useEffect(() => {
@@ -30,7 +32,9 @@ function Portfolio() {
         { imageSrc: Conways, imageBoxColor: "#18a86b", infoBoxColor: "#e3e3e3", tags: ["CONSOLE", ".NET", "GAME"], githubUrl: "https://github.com/felieppe/ConwaysLife", name: "Conways Life" },
         { imageSrc: Challenge, imageBoxColor: "#052d66", infoBoxColor: "#e3e3e3", tags: ["MOBILE", "MOCKUP", "ECOLOGICAL"], ytUrl: "https://www.youtube.com/watch?v=7di4GbpxrWM", name: "Desafío Ingeniería" },
         { imageSrc: Autosharp, imageBoxColor: "#055d66", infoBoxColor: "#e3e3e3", tags: ["DESKTOP", ".NET", "AUTOMATION"], githubUrl: "https://github.com/felieppe/Autosharp", name: "Autosharp" },
-        { imageSrc: LocuraPropiedades, imageBoxColor: "#2d2322", infoBoxColor: "#e3e3e3", tags: ["WEBSITE", "NEXT.JS", "STARTUP"], gotoLink: "https://locurapropiedades.com", name: "Locura Propiedades" }
+        { imageSrc: LocuraPropiedades, imageBoxColor: "#2d2322", infoBoxColor: "#e3e3e3", tags: ["WEBSITE", "NEXT.JS", "STARTUP"], gotoLink: "https://locurapropiedades.com", name: "Locura Propiedades" },
+        { imageSrc: Marloy, imageBoxColor: "#a67a5a", infoBoxColor: "#e3e3e3", tags: ["WEBSITE", "NEXT.JS", "FRONTEND"], githubUrl: "https://github.com/felieppe/marloy-web", name: "Marloy" },
+        { imageSrc: Brello, imageBoxColor: "#4a5870", infoBoxColor: "#e3e3e3", tags: ["WEBSITE", "NEXT.JS", "FRONTEND"], githubUrl: "https://github.com/felieppe/brello", name: "Brello" },
     ]
 
     const handleTagClick = (tag) => {
